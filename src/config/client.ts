@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "9",
 
   // Services
   services: [
@@ -79,9 +79,15 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Jacquie Simpson", rating: 5, text: "All the workers that worked on my garden were very professional. They were punctual, attentive to the wildlife present, polite and very hard working. The gentlemen started working at 8:00am and only stopped for one short break. It was back …  ", date: "5 years ago" },
+    { name: "Izzy Grigg", rating: 5, text: "I’m very pleased with the work All Tree & Garden Care Ltd undertook today. I don’t normally post reviews but they’ve done such a great job clearing the garden of the house we’ve just moved into which had become very overgrown I wanted to …  ", date: "3 years ago" },
+    { name: "Peter W.", rating: 5, text: "100% recommended - I needed a back garden cleared which was like a jungle. From a very fair quote on the Saturday, Tyrone's crew was on it on Monday morning, a one day job, cleared down to the ground, all debris including an old garden shed …  ", date: "5 years ago" },
+    { name: "Nakeva Phirmis", rating: 5, text: "We just had our garden work completed yesterday and the results are fantastic. We needed our front and back garden to be completely cleared out, with a new fence for the back garden and a deck built. …  ", date: "5 years ago" },
+    { name: "Jon Roe", rating: 5, text: "We appointed Tyrone and his team to give our garden a general tidy up after a few years of neglect, remove a tree and some shrubs and replace a retaining wall that had collapsed. …  ", date: "6 years ago" },
+    { name: "RAPID", rating: 5, text: "Tyrone and his team have kept our front garden looking tidy for the last couple of years now. They are always speedy to quote, and punctual to do the work. We are not disturbed when the work is done as his team use petrol fuelled tools. They always t", date: "5 years ago" },
+    { name: "Pat Miller", rating: 5, text: "We recently had some trees removed and reduced to open up our garden, a new fence built and turf laid by the team from All Tree and Garden Care. They were professional and proficient and took our neighbours into consideration when removing …  ", date: "5 years ago" },
+    { name: "Oliver New", rating: 5, text: "Tyrone and his team replaced our decaying garden fences with lovely new feather-edge and concrete posts. Looks fantastic and you can just tell it's been done properly - i.e. everything is neat and straight and has been done with pride and …  ", date: "4 years ago" },
+    { name: "stephen creaturo", rating: 5, text: "All Tree and Garden Care replaced a portion of our rear fence off the back deck of the house that is adjoining to our neighbor. This included new posts, a leveling of the property to gain more symmetry with the fence and quite a few new …  ", date: "3 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
